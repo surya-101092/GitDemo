@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45351" started-at="2020-03-09T22:56:52 IST" finished-at="2020-03-09T22:57:37 IST">
+    <groups>
+    </groups>
+    <test name="Homepage" duration-ms="45351" started-at="2020-03-09T22:56:52 IST" finished-at="2020-03-09T22:57:37 IST">
+      <class name="PersonalLearning.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:PersonalLearning.HomePage@4082ba93]" name="initialize" is-config="true" duration-ms="15698" started-at="2020-03-09T22:56:52 IST" finished-at="2020-03-09T22:57:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:PersonalLearning.HomePage@4082ba93]" name="basePageNavigation" duration-ms="8590" started-at="2020-03-09T22:57:08 IST" data-provider="getData" finished-at="2020-03-09T22:57:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:PersonalLearning.HomePage@4082ba93]" name="browserClose" is-config="true" duration-ms="114" started-at="2020-03-09T22:57:16 IST" finished-at="2020-03-09T22:57:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:PersonalLearning.HomePage@4082ba93]" name="initialize" is-config="true" duration-ms="11824" started-at="2020-03-09T22:57:16 IST" finished-at="2020-03-09T22:57:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:PersonalLearning.HomePage@4082ba93]" name="basePageNavigation" duration-ms="8972" started-at="2020-03-09T22:57:28 IST" data-provider="getData" finished-at="2020-03-09T22:57:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pqr@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anc@rkf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:PersonalLearning.HomePage@4082ba93]" name="browserClose" is-config="true" duration-ms="95" started-at="2020-03-09T22:57:37 IST" finished-at="2020-03-09T22:57:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- PersonalLearning.HomePage -->
+    </test> <!-- Homepage -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,6 @@
+22:55:23.163 [TestNG-tests-1] INFO  PersonalLearning.HomePageTitle - Navigated to Home Page
+22:55:24.331 [TestNG-tests-1] INFO  PersonalLearning.HomePageTitle - Banner is displayed as per test
+22:57:04.453 [TestNG-tests-1] INFO  PersonalLearning.HomePageTitle - Driver is initialized
+22:57:09.015 [TestNG-tests-1] INFO  PersonalLearning.HomePageTitle - Navigated to Home Page
+22:57:09.104 [TestNG-tests-1] INFO  PersonalLearning.HomePageTitle - Banner is displayed as per test
+22:57:09.498 [TestNG-tests-1] INFO  PersonalLearning.HomePageTitle - Videos text is displayed

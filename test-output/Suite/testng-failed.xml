@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="PersonalLearning.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Title(failed)">
+    <classes>
+      <class name="PersonalLearning.HomePageTitle">
+        <methods>
+          <include name="homePageTitle"/>
+          <include name="browserClose"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PersonalLearning.HomePageTitle -->
+    </classes>
+  </test> <!-- Title(failed) -->
+  <test thread-count="5" name="Homepage(failed)">
+    <classes>
+      <class name="PersonalLearning.HomePage">
+        <methods>
+          <include name="browserClose"/>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PersonalLearning.HomePage -->
+    </classes>
+  </test> <!-- Homepage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
