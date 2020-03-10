@@ -33,6 +33,7 @@ public class HomePageTitle extends Base {
 		Assert.assertTrue(land.getVideosTitle().isDisplayed());
 		Assert.assertTrue(land.getVideosTitle().getText().contains("VIDEOS"));
 		log.info("Videos text is displayed");
+		System.out.println("Hellow GIT Master");
 
 	}
 
