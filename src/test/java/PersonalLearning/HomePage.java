@@ -34,11 +34,14 @@ public class HomePage extends Base {
 		System.out.println("GIT DEMO");
 		System.out.println("GIT DEMO");
 		System.out.println("GIT DEMO");
+		
+		System.out.println("This is new world");
 
 	}
 	@Test
 	public void newMethod() {
 		System.out.println("Test Git branch");
+		System.out.println("How are you");
 	}
 
 	@DataProvider
