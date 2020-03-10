@@ -29,6 +29,7 @@ public class HomePage extends Base {
 		lp.getEmail().sendKeys(email);
 		lp.getPassword().sendKeys(password);
 		lp.loginButton().click();
+		System.out.println("GIT DEMO");
 
 	}
 
