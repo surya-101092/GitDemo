@@ -30,7 +30,15 @@ public class HomePage extends Base {
 		lp.getPassword().sendKeys(password);
 		lp.loginButton().click();
 		System.out.println("GIT DEMO");
+		System.out.println("Hello DEMO");
+		System.out.println("GIT DEMO");
+		System.out.println("GIT DEMO");
+		System.out.println("GIT DEMO");
 
+	}
+	@Test
+	public void newMethod() {
+		System.out.println("Test Git branch");
 	}
 
 	@DataProvider

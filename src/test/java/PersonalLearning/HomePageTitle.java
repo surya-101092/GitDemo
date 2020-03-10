@@ -42,6 +42,13 @@ public class HomePageTitle extends Base {
 		LandingPage land = new LandingPage(driver);
 		Assert.assertEquals(land.getBanner().getText(), "AN ACADEMY TO LEARN EVERYTHING ABOUT TESTING");
 		log.info("Banner is displayed as per test");
+		System.out.println("Hellow GIT Master");
+		
+		System.out.println("Hellow GIT Master");
+		System.out.println("Hellow GIT Master");
+		System.out.println("Hellow GIT Master");
+		System.out.println("Hellow GIT Master");
+		
 	}
 
 	@AfterTest
